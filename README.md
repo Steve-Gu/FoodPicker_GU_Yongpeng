@@ -11,6 +11,7 @@ You can find your favorite food trucks in seconds through below criteria:
 * zipCode: it's a number which must be strictly matched.
 
 ## How to Use
+* download the zip file
 * unzip the file
 * in command line, change to the root folder
 * execute (you must have installed maven in your computer already)
@@ -21,7 +22,7 @@ mvn package
 ```bash 
 java -cp target/FoodPicker_GU_Yongpeng-1.0-SNAPSHOT.jar org.abc.foodpicker.Main foodItems:cold
 ```
-all food related with cold will be found. Moreover, foodItems can be replaced with locationid, applicant, facilityType, address, zipCode.
+all food related with cold will be found. Moreover, foodItems can be replaced with locationid, applicant, facilityType, address, zipCode to meet different needs.
 * if some foods match your search, the found data will display in the screen, otherwise, "NO Data found." will display. 
 
 ## ToDo
